@@ -38,7 +38,9 @@ This project is part of the **Intermediate HTML and CSS** section of [The Odin P
 ---
 
 ## 📸 Preview
-
+![Desktop View](screenshot-desktop.png)
+![Tablet View](screenshot-tablet.png)
+![Mobile View](screenshot-mobile.png)
 ---
 
 ## 📚 What I Learned
