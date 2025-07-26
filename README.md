@@ -41,15 +41,6 @@ This project is part of the **Intermediate HTML and CSS** section of [The Odin P
 
 ---
 
-## ✅ Stretch Goals (Optional)
-
-- Add a dark mode toggle (bonus)
-- Add hover or active effects on cards and links
-- Add form or button interactivity
-- Make it fully mobile-responsive using media queries
-
----
-
 ## 📚 What I Learned
 
 - Structuring complex layouts with CSS Grid
