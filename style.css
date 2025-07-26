@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --aside-color: rgb(35, 101, 175);
+
+}
+
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", 'Courier New', Courier, monospace, "Font Awesome 7 Free";
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr;
+    grid-template-rows: 1fr 3fr 3fr 3fr;
+    grid-template-areas:
+        "aside header header"
+        "aside main main"
+        "aside main main"
+        "aside main main";
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    grid-area: main;
+    background-color: grey;
+}
+
+aside {
+    grid-area: aside;
+    background-color: var(--aside-color);
+    color: whitesmoke;
+    padding: 1rem;
+}
+
+header {
+    grid-area: header;
+    background-color: white;
+}
+
+.gapper {
+    margin: 1rem 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-icon {
+    margin-right: 1rem
+}
